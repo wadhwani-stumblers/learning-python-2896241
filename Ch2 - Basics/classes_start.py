@@ -6,6 +6,10 @@
 class Vehicle():
     def __init__(self):
         _self.bodystyle = bodystyle
+    
+    def drive(self, speed):
+        self.mode = "driving"
+        self.speed = speed
 
 class Car(Vehicle):
     def __init__(self, enginetype):
@@ -13,6 +17,9 @@ class Car(Vehicle):
         self.weels = 4
         self.doors = 4
         self.enginetype
+
+    def drive(self, speed):
+        super().__init__()
 
 class Motorcycle(Vehicle):
     def __init__(self, enginetype, hassidcar):
@@ -29,3 +36,6 @@ car2 = Car("electric")
 mc1 = Motorcycle("gas", True)
 
 
+print(mc1.weels)
+print(car1.enginetype)
+print(car2.doors)

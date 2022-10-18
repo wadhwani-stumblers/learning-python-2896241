@@ -1,0 +1,11 @@
+Total bytecount:96930
+Files list:
+--------------
+CONTRIBUTING.md
+LICENSE
+NOTICE
+README.md
+textfile.txt.bak
+newfile.txt
+archive.zip
+testzip.zip
